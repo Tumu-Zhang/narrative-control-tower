@@ -1,0 +1,32 @@
+# Previous exploratory prototype. Keep it out of the new governed starting point.
+/NarrativeControlTower/
+/NarrativeControlTower.SmokeTests/
+/docs/superpowers/
+
+# Build outputs
+bin/
+obj/
+.vs/
+.idea/
+.vscode/
+TestResults/
+artifacts/
+publish/
+*.user
+*.suo
+*.cache
+*.log
+
+# Secrets and local credentials
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+secrets/
+local.settings.json
+appsettings.*.local.json
+
+# OS noise
+Thumbs.db
+Desktop.ini
